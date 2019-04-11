@@ -16,7 +16,6 @@ set password = mypassword
 Then jump in to Python (I am using 2.7.12) and import json and configchecker
 
 ```python
-import json
 from configchecker import *
 ```
 Create a Gold config for an array. We are passing its IP address here, instead of name. You can check that the JSON file has been created
