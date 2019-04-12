@@ -97,4 +97,5 @@ For more details check out the Unity official documents:
  - Rest API interface that exposes the main functions such as "create new Gold copy" and "compare current config against the archive Gold copy"
  - Given that we are dealing with JSON files it would make sense to do away with text files and use MongoDB at the backend
  - Store more point-in-time array configurations and provide a historical record of configurations that can be queried
+ - Investigate options available in DeepDiff to optimize comparison results: https://deepdiff.readthedocs.io/en/latest/diff.html
 
