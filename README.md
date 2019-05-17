@@ -95,7 +95,7 @@ For more details check out the Unity official documents:
 # To Do
  - Open up the tool to be used with other arrays/appliances. Separate the Unity specific pieces away into its own library and adapt the main script to make it easy to integrate other API's
  - Rest API interface that exposes the main functions such as "create new Gold copy" and "compare current config against the archive Gold copy"
- - Given that we are dealing with JSON files it would make sense to do away with text files and use MongoDB at the backend
+ - Consider other options for storing the JSON. Files were only a quick way of getting the prototype out. Given that we are dealing with text we could use a a version control system which will provide change detection natively. Or given that we are dealing with JSON files we could use MongoDB at the backend
  - Store more point-in-time array configurations and provide a historical record of configurations that can be queried
  - Investigate options available in DeepDiff to optimize comparison results: https://deepdiff.readthedocs.io/en/latest/diff.html
 
